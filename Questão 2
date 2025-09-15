@@ -1,0 +1,46 @@
+let a = 10;
+let b = 15;
+let operador = "/"
+
+let valor = verifica(a, b, operador);
+
+function verifica(a, b, operador){
+switch(operador){
+  case "+":
+    console.log("soma:", a + b);
+    return a + b;
+  case "-":
+    console.log("subtração:", a - b);
+    return a - b;
+  case "*":
+    console.log("multiplicação:", a * b);
+    return a * b;
+  case "/":
+    console.log("divisão:", a / b);
+    return a / b;
+  default:
+    console.log("operação incorreta");
+}
+}
+
+let a = 10;
+let b = 15;
+let operador = "/"
+
+switch(operador){
+  case "+":
+    console.log("soma:", a + b);
+    break;
+  case "-":
+    console.log("subtração:", a - b);
+    break;
+  case "*":
+    console.log("multiplicação:", a * b);
+    break;
+  case "/":
+    console.log("divisão:", a / b);
+    break;
+  default:
+    console.log("operação incorreta");
+}
+
