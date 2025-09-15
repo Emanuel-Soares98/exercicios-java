@@ -5,3 +5,15 @@ console.log ("Par");
 } else { (numero %2 == 1) 
   console.log ("Impar");
 }   
+
+let num = 20;
+
+paridade(num)
+
+function paridade(num){
+  if (num %2 == 0) {
+  console.log ("Par");
+} else { 
+  console.log ("Impar");
+}   
+}
